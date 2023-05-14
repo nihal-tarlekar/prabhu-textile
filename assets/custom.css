@@ -453,6 +453,12 @@ img.hover-shadow {
 }
 
 @media(max-width: 640px) {
+    .banner {
+        border-bottom-left-radius: 40px 40px;
+        border-bottom-right-radius: 40px 40px;
+    }
+
+
     .banner-caption h1 {
         font-size: 32px;
         margin-bottom: 20px;
@@ -511,6 +517,8 @@ img.hover-shadow {
     .footer {
         text-align: center;
         padding: 60px 0 10px 0;
+        border-top-left-radius: 40px 40px;
+        border-top-right-radius: 40px 40px;
     }
 
     .footer .col-lg-6:last-child {
